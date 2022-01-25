@@ -1,0 +1,25 @@
+<html>
+<head>
+        <title>BAN_YOUR_TEACHER</title>
+</head>
+<body style='text-align: center; background-image: url("https://static-cse.canva.com/blob/140234/Rainbow-Gradient-Pink-and-Purple-Zoom-Virtual-Background.png");'>
+    <div style='text-align: center;'>
+        <button type="text"   style="top:20px;background:url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v904-nunny-010-a_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=3eff02c6061893de65de9748fe259d73') ;border: none;padding: 0;height:100px; width:500px;border-radius: 100px;"><h2 style="font-family:Courier;">Wyniki:</h2></button>
+
+        <br />
+        <form action="{{ url_for("gg")}}" method="post">
+
+                <tr>
+                    <td>
+                        <h3 style="font-family:Courier;">{{ result }}</h3>
+                        <button type="button" onClick="window.location.href=window.location.href"  id="reset" name="reset"  style="background:url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v904-nunny-004-a_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=8c24b06f6799bbe3080da7f0d1622af6') ;border: none;padding: 0;height:100px; width:200px;border-radius: 100px;">Odśwież</button>
+
+
+                    </td>
+                </tr>
+
+        </form>
+
+    </div>
+</body>
+</html>
