@@ -1,2 +1,2 @@
 # ban_your_teacher
-ban mobi users
+ban mobidziennik users using this exploit
